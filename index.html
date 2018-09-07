@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Cave</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+
+    <style>
+        .cactuar {
+            max-width: 10em;
+            animation-duration: 3.5s;
+            animation-name: kaktor;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            overflow: hidden
+        }
+
+        .The_Rock {
+            max-width: 10em;
+        }
+
+        @keyframes kaktor {
+
+            from {
+                margin-left:calc(0% - 178px) ;
+
+            }
+            to {
+                margin-left: 100%; 
+        }}
+    </style>
+
+</head>
+
+<body>
+    <div class="header_nav radius">
+        <header>Welcome "Home"</header>
+
+        <div>
+            <ul class="img_container">
+                <a href="./index.html"><img src="./pics/gate.jpg" title="Home"></a>
+                <a href="./Game/Game.html"><img src="./pics/Number-Quiz.png" title="Guess the Number"></a>
+                <a href="./The_End/Lion.html"><img src="./pics/endtimes.jpg" title="End of the World"></a>
+            </ul>
+        </div>
+    </div>
+<div class="animation">
+    <img class="cactuar" src="./pics/cactuar.png" alt="Cactuar">
+    <img class="The_Rock" src="./pics/Rock_icon.png" alt="The Rock">
+</div>
+    <footer>T00nix&Co.KG</footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

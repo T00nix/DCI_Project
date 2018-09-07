@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <style>
+        .guess_number {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 20em;
+            background-color: rgb(210, 253, 255)
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header_nav radius">
+        <header>Welcome "Home"</header>
+
+        <div>
+            <ul class="img_container">
+                <a href="../index.html"><img src="../pics/gate.jpg" title="Home"></a>
+                <a href="../Game/Game.html"><img src="../pics/Number-Quiz.png" title="Guess the Number"></a>
+                <a href="../The_End/Lion.html"><img src="../pics/endtimes.jpg" title="End of the World"></a>
+            </ul>
+        </div>
+    </div>
+    <div class="guess_number">
+        <div>
+            <h3>Guess the Number (Javascript-Game)</h3>
+
+            <div class="form">
+                <label for="guessField">Enter a guess:</label>
+                <input type="text" id="guessField" class="guessField">
+                <input type="submit" value="Submit guess" class="guessSubmit">
+            </div>
+
+            <div class="resultParas">
+                <p class="guesses"></p>
+                <p class="lastResult"></p>
+                <p class="lowOrHi"></p>
+                <div class="NewGame">
+            </div>
+            </div>
+            
+        </div>
+    </div>
+  <script src="../js/Script_Kiddy.js"></script>
+    <footer>T00nix&Co.KG</footer>
+  
+</body>
+
+</html>
